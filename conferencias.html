@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conferencias – Colombia 5.0</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo"><a href="index.html" style="color:inherit;text-decoration:none;">COL<span>5.0</span></a></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio / Home</a></li>
+      <li><a href="conferencias.html" class="active">Conferencias / Conferences</a></li>
+      <li><a href="glosario.html"> Glosario / Glossary</a></li>
+      <li><a href="conclusion.html">Conclusión / Ethics</a></li>
+    </ul>
+    <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+  </nav>
+
+  <section class="page-hero">
+    <h1>Conferencias <br /><span style="color:var(--gold)">Seleccionadas</span></h1>
+    <h1>Featured <br /><span style="color:var(--gold)">Talks</span></h1>
+    <p>Un recorrido por las ideas, innovaciones y debates éticos que están transformando el desarrollo tecnológico.</p>
+    <p style="color:#4e5a6a; margin-top:0.4rem; font-size:0.8rem;">A journey through the ideas, innovations, and ethical debates transforming technological development.</p>
+  </section>
+
+  <section class="conferences-section" style="display:grid; gap:2.5rem; padding:4rem 7rem;">
+    
+    <div class="conf-card conf-card-link" onclick="window.location='conferencia1.html'" style="cursor:pointer; background:var(--card-bg); padding:2.5rem; border:1px solid var(--border); transition:var(--transition);">
+      <span class="conf-tag" style="background:#e3f2fd; color:#0d47a1; padding:0.3rem 0.6rem; font-size:0.75rem; font-family:var(--font-sans); letter-spacing:0.05em; text-transform:uppercase;">🎮 UX/UI · Videojuegos</span>
+      <h2 style="font-family:var(--font-display); margin-top:1rem; font-size:1.8rem;">Game UI Systems</h2>
+      <p class="conf-speaker" style="font-family:var(--font-sans); color:var(--gold); font-size:0.9rem; margin-top:0.2rem;">Andres Felipe Piaso Tobar</p>
+      <hr class="conf-divider" style="border:none; border-top:1px solid var(--border); margin:1.5rem 0;" />
+      <p>En esta charla aprendí muchas cosas sobre cómo se crean las pantallas que vemos en los videojuegos. Algo que me pareció interesante fue que no basta con que se vean bonitas, sino que también deben ser fáciles de usar para que los jugadores encuentren rápidamente lo que necesitan y puedan disfrutar mejor del juego.</p>
+      <div style="margin-top:1.5rem;">
+      <p class="en">
+        In this talk, I learned many things about how the screens we see in video games are created. One thing I found interesting was that it's not enough for them to look nice; they also need to be easy to use so that players can quickly find what they need and enjoy the game more.
+      </p>
+        <span class="btn-card" style="color:var(--gold); font-family:var(--font-sans); font-size:0.85rem; font-weight:500;">Ver conferencia completa →</span>
+        
+      </div>
+    </div>
+
+    <div class="conf-card conf-card-link" onclick="window.location='conferencia2.html'" style="cursor:pointer; background:var(--card-bg); padding:2.5rem; border:1px solid var(--border); transition:var(--transition);">
+      <span class="conf-tag yellow" style="background:#fffde7; color:#f57f17; padding:0.3rem 0.6rem; font-size:0.75rem; font-family:var(--font-sans); letter-spacing:0.05em; text-transform:uppercase;">🤖 Inteligencia Artificial</span>
+      <h2 style="font-family:var(--font-display); margin-top:1rem; font-size:1.8rem;">En la Era de la Inteligencia Artificial</h2>
+      <p class="conf-speaker" style="font-family:var(--font-sans); color:var(--gold); font-size:0.9rem; margin-top:0.2rem;">Borja Castelar</p>
+      <p class="conf-role" style="font-size:0.8rem; color:var(--muted); font-family:var(--font-sans);">Exdirector de LinkedIn para América Latina · Experto en Liderazgo y Talento Digital</p>
+      <hr class="conf-divider" style="border:none; border-top:1px solid var(--border); margin:1.5rem 0;" />
+      <p>Borja Castelar explicó que la inteligencia artificial puede ayudar en muchas tareas, como escribir correos o buscar información más rápido. Sin embargo, me pareció interesante que destacó que hay cosas que la tecnología no puede hacer, como liderar un equipo o relacionarse con otras personas.</p>
+      <div style="margin-top:1.5rem;">
+      <p class="en"> Borja Castelar explained that artificial intelligence can help with many tasks, such as writing emails or finding information more quickly. However, I found it interesting that he pointed out that there are things technology cannot do, such as leading a team or building relationships with other people. </p>
+        <span class="btn-card" style="color:var(--gold); font-family:var(--font-sans); font-size:0.85rem; font-weight:500;">Ver conferencia completa →</span>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>Sara Valentina Garzon Rojas · Colombia 5.0 · SENA – Centro de Manufactura en Textil y Cuero</p>
+    </div>
+  </footer>
+
+</body>
+</html>
